@@ -1,2 +1,5 @@
 s=input("Enter the string :")
-print("Reverse of the string ",s," is ",s[::-1])
+if s[0] == '-':
+  print(0)
+else:
+  print("Reverse of the string ",s," is ",s[::-1])
